@@ -1,26 +1,29 @@
 echo -e "
-
-# HOTKEYS
+# Hotkeys
 COPY: Highlight text with mouse then ENTER or CTRL+C
 PASTE: Mouse2
 
-# DIRECTORIES
-Ubuntu files: C:\Users\USERNAME\AppData\Local\Lxss\home\USERNAME
-Windows desktop: /mnt/c/Users/micha/Desktop/
+# Directories
+/home/mbilberr... ?? Not right ?? C:\Users\micha\AppData\Local\Lxss\home\micha
+Desktop.......... cd /mnt/c/Users/micha/Desktop/
+OneDrive......... cd /mnt/c/Users/micha/OneDrive/ (C:\Users\micha\OneDrive\)
+Minecraft........ cd /mnt/c/Users/micha/AppData/Roaming/.minecraft
 
-"
+To start sshd: sudo service ssh --full-restart
+\n"
 
-# ENVIRONMENT
+# Environment
 export DISPLAY=localhost:0.0
-setterm blength 0
 set bell-style none
+setterm blength 0
 
-# ALIASES
+# Aliases
 alias vi='vim'
 alias ll='ls -tlrh'
 alias cddtop='cd /mnt/c/Users/micha/Desktop'
+alias cdmc='cd /mnt/c/Users/micha/AppData/Roaming/.minecraft'
 
-# COMMANDS
-. ~/.bashrc
+# Misc
 cd /mnt/c/Users/micha/Desktop
+. ~/.bashrc
 
