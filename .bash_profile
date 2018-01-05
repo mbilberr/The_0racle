@@ -27,6 +27,8 @@ sshr............. restart sshd service
 
 sudo apt install <package_name>
 sudo apt autoremove
+
+ssh u91794189@home716419518.1and1-data.host #michaelbilberry.com website
 \n"
 
 # Misc
