@@ -1,0 +1,1 @@
+robocopy "%appdata%\.minecraft\saves" "<destination directory>" /e /xf
